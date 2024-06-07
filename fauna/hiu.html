@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deskripsi Hewan Langka</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .title {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      .content {
+        display: flex;
+        flex-wrap: wrap;
+
+      }
+
+      .image-section {
+        flex: 1;
+        min-width: 300px;
+        text-align: center;
+        padding-top: 40px;
+      }
+
+      .image-section img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+
+      .description-section {
+        flex: 2;
+        padding: 20px;
+      }
+
+      .description-section h2 {
+        color: #333;
+        border-bottom: 2px solid #e0e0e0;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+      }
+
+      .description-section p {
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 20px;
+      }
+
+      .back-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-align: center;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .back-button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Hiu Paus/Tutul</h1>
+      <div class="content">
+        <div class="image-section">
+          <img
+            src="https://www.mongabay.co.id/wp-content/uploads/2021/08/hiu-paus.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="description-section">
+          <h2>Deskripsi</h2>
+          <p>
+            Hiu Tutul (Rhincodon typus) adalah spesies ikan terbesar di dunia
+            yang dikenal sebagai pemakan plankton. Hiu ini dapat tumbuh hingga
+            12 meter panjangnya dan memiliki bobot mencapai 20 ton. Tubuhnya
+            besar dengan kulit berwarna abu-abu dengan bintik-bintik putih yang
+            khas.
+          </p>
+          <h2>Habitat</h2>
+          <p>
+            Hiu Tutul berhabitat di perairan Talisayan, Pesisir Berau,
+            Indonesia. Mereka ditemukan di laut tropis dan hangat di seluruh
+            dunia, sering terlihat di dekat permukaan air di mana plankton
+            melimpah.
+          </p>
+          <h2>Status Konservasi</h2>
+          <p>
+            Di Indonesia, populasi hiu tutul dilindungi berdasarkan Keputusan
+            Menteri Kelautan dan Perikanan Nomor 18/Kepmen-KP/2013 yang melarang
+            segala bentuk kegiatan ekstraktif terhadap spesies ini. Perlindungan
+            ini penting untuk menjaga kelangsungan hidup hiu tutul dari ancaman
+            seperti penangkapan berlebih dan kerusakan habitat.
+          </p>
+          <h2>Informasi Menarik</h2>
+          <p>
+            Hiu Tutul adalah hiu pemakan plankton terbesar di dunia, bisa tumbuh hingga 12 meter dan beratnya mencapai 20 ton. Meskipun ukurannya besar, mereka tidak berbahaya bagi manusia karena hanya memakan plankton. Di Indonesia, hiu tutul dilindungi dan populasi mereka dapat diamati di habitat aslinya.
+          </p>
+          <a class="back-button" onclick="goBack()">Kembali</a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </body>
+</html>
